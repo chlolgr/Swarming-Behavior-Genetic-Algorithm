@@ -59,10 +59,10 @@ def make_new_evolution(name):
 
 #========================== SCRIPT ==========================#
 
-evolution = open_evolution('card_10')
-print(evolution.generation)
+#evolution = open_evolution('card_10')
+#print(evolution.generation)
 #continue_evolution(evolution,1000,'card_10')
-visualize(evolution,0,1)
+#visualize(evolution,0,1)
 #evolution.plot_fitness_per_generation(smoother=5)
 #evolution.prey_pool[0].see_brain()
 
