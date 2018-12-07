@@ -136,7 +136,7 @@ class Evolution():
 					r = np.random.random()
 					if r<.45: w[row,col] = p1.coef_[row,col]
 					elif r<.9: w[row,col] = p2.coef_[row,col]
-					else: w[row,col] = np.random.random()%2-1
+					else: w[row,col] = np.random.random()*2-1
 
 			kid = Predator(Grid(self.grid_size[0],self.grid_size[1]))
 			kid.brain.coef_ = w
@@ -164,7 +164,7 @@ class Evolution():
 					r = np.random.random()
 					if r<.45: w[row,col] = p1.coef_[row,col]
 					elif r<.9: w[row,col] = p2.coef_[row,col]
-					else: w[row,col] = np.random.random()%2-1
+					else: w[row,col] = np.random.random()*2-1
 
 			kid = Prey(Grid(self.grid_size[0],self.grid_size[1]))
 			kid.brain.coef_ = w
