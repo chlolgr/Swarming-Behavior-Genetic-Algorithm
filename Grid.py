@@ -8,7 +8,7 @@ class Grid():
 	def __init__(self,width,height):
 		self.width = width
 		self.height = height
-		self.inhabitants = []
+		self.inhabitants = list()
 
 
 	def add_animal(self,animal):
