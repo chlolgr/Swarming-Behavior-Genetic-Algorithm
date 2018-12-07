@@ -17,7 +17,7 @@ def open_evolution(name):
 def continue_evolution(evolution,generations,name):
 	print('Continuing evolution')
 	for i in range(generations):
-		print('Running generation',i+1,'out of',generations,'generations')
+		print('Running generation',i+1,'out of',generations)
 		evolution.run_tests()
 		ranked_predators = evolution.rank_predators()
 		ranked_preys = evolution.rank_preys()
@@ -59,9 +59,10 @@ def make_new_evolution(name):
 
 #========================== SCRIPT ==========================#
 
-evolution = open_evolution('card_10_2')
-print(evolution.generation)
-#continue_evolution(evolution,1000,'card_10_2')
-visualize(evolution,0,4)
-#evolution.plot_fitness_per_generation(smoother=50)
+#name = ''
+#evolution = open_evolution(name)
+#print(evolution.generation)
+#continue_evolution(evolution,1000,name)
+#visualize(evolution,0,4)
+#evolution.plot_fitness_per_generation(smoother=5)
 
