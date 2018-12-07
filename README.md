@@ -1,4 +1,4 @@
-# Swarming-Behavior-Genetic-Algorithm
+# Predator Confusion is Sufficient to Evolve Swarming Behavior
 
 
 ## Introduction
