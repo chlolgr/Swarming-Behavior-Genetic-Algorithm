@@ -19,10 +19,26 @@ Children are generated from the 3 animals with the best fitnesses, plus the 6th 
 
 ## Visualizations
 
-### Swarms at generations 33:
+### Swarms at generations 33 and 113:
 
-<img src="https://raw.githubusercontent.com/chlolgr/swarming-behavior-genetic-algorithm/master/pictures/generation_33_perceptrons_circles.png" width="300">
+<img src="https://raw.githubusercontent.com/chlolgr/swarming-behavior-genetic-algorithm/master/pictures/generation_33_perceptrons_circles.png" width="400">
 
-### Swarms at generation 113:
+<img src="https://raw.githubusercontent.com/chlolgr/swarming-behavior-genetic-algorithm/master/pictures/generation_113_perceptrons_swarms.png" width="400">
 
-<img src="https://raw.githubusercontent.com/chlolgr/swarming-behavior-genetic-algorithm/master/pictures/generation_113_perceptrons_swarms.png" width="300">
+### Predator efficiency with and without confusion:
+
+<img src="https://raw.githubusercontent.com/chlolgr/swarming-behavior-genetic-algorithm/master/pictures/confusion_true_vs_false_swarm_size.png" width="400">
+
+### Importance of retina angle: 
+
+<img src="https://raw.githubusercontent.com/chlolgr/swarming-behavior-genetic-algorithm/master/pictures/preys_consumed_per_vision_angle.png" width="400"> <img src="https://raw.githubusercontent.com/chlolgr/swarming-behavior-genetic-algorithm/master/pictures/attempts.png" width="400">
+<img src="https://raw.githubusercontent.com/chlolgr/swarming-behavior-genetic-algorithm/master/pictures/success_rate_per_vision_angle.png" width="400"> <img src="https://raw.githubusercontent.com/chlolgr/swarming-behavior-genetic-algorithm/master/pictures/visible_preys_different_vision_angles.png" width="400">
+
+### Adding cummulative instead of boolean vision at generation 124:
+
+<img src="https://raw.githubusercontent.com/chlolgr/swarming-behavior-genetic-algorithm/master/pictures/fitness_generations.png" width="400">
+
+### Predator perceptrons weights:
+
+<img src="https://raw.githubusercontent.com/chlolgr/swarming-behavior-genetic-algorithm/master/pictures/weights_stay_still.png" width="400"> <img src="https://raw.githubusercontent.com/chlolgr/swarming-behavior-genetic-algorithm/master/pictures/weights_forward.png" width="400">
+<img src="https://raw.githubusercontent.com/chlolgr/swarming-behavior-genetic-algorithm/master/pictures/weights_left.png" width="400"> <img src="https://raw.githubusercontent.com/chlolgr/swarming-behavior-genetic-algorithm/master/pictures/weights_right.png" width="400">
