@@ -25,7 +25,7 @@ Children are generated from the 3 animals with the best fitnesses, plus the 6th 
 
 ### Predator efficiency with and without confusion:
 
-<img src="https://raw.githubusercontent.com/chlolgr/swarming-behavior-genetic-algorithm/master/pictures/confusion_true_vs_false_swarm_size.png" width="400">
+<img src="https://raw.githubusercontent.com/chlolgr/swarming-behavior-genetic-algorithm/master/pictures/confusion_true_vs_false_swarm_size.png" width="800">
 
 ### Importance of retina angle: 
 
@@ -34,7 +34,7 @@ Children are generated from the 3 animals with the best fitnesses, plus the 6th 
 
 ### Adding cummulative instead of boolean vision at generation 124:
 
-<img src="https://raw.githubusercontent.com/chlolgr/swarming-behavior-genetic-algorithm/master/pictures/fitness_generations.png" width="400">
+<img src="https://raw.githubusercontent.com/chlolgr/swarming-behavior-genetic-algorithm/master/pictures/fitness_generations.png" width="800">
 
 ### Predator perceptrons weights:
 
