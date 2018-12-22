@@ -19,5 +19,10 @@ Children are generated from the 3 animals with the best fitnesses, plus the 6th 
 
 ## Visualizations
 
-<img src="https://raw.githubusercontent.com/chlolgr/swarming-behavior-genetic-algorithm/master/pictures/generation_33_perceptrons_circles.png" width="48">
-![alt text](https://raw.githubusercontent.com/chlolgr/swarming-behavior-genetic-algorithm/master/pictures/generation_33_perceptrons_circles.png)
+### Swarms at generations 33:
+
+<img src="https://raw.githubusercontent.com/chlolgr/swarming-behavior-genetic-algorithm/master/pictures/generation_33_perceptrons_circles.png" width="300">
+
+### Swarms at generation 113:
+
+<img src="https://raw.githubusercontent.com/chlolgr/swarming-behavior-genetic-algorithm/master/pictures/generation_113_perceptrons_swarms.png" width="300">
