@@ -15,3 +15,8 @@ I used perceptrons to model the brains of preys and predators. The point is to e
 I used pools of 10 predators and 10 preys for each generation. Every (predator,prey) pair is tested, using 1 predator and 50 instances of the prey for each simulation. I used multiprocessing to quicken up the calculations (they're still quite long though, and can definitely be made less so by grouping some calculations within). Then, I calculated the average of every animal's fitnesses, and ranked them using that. 
 
 Children are generated from the 3 animals with the best fitnesses, plus the 6th of the group (to maintain some diversity). Two parents are picked at random, and the weights of their perceptrons are distributed randomly to the child. I added 10% of mutations. 
+
+
+## Visualizations
+
+![alt text](https://raw.githubusercontent.com/chlolgr/swarming-behavior-genetic-algorithm/master/pictures/weights_forward.png)
