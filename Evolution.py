@@ -130,7 +130,7 @@ class Evolution():
 		predator_fitnesses = dict()
 		prey_fitnesses = dict()
 		for num_test,fitness_tuple in return_dict.items():
-			num_predator,num_prey = int(num_test[:3]),int(num_test[3:])
+			num_predator,num_prey = int(num_test[:2]),int(num_test[2:])
 			if num_predator in predator_fitnesses: predator_fitnesses[num_predator] += fitness_tuple['predator']
 			else: predator_fitnesses[num_predator] = fitness_tuple['predator']
 			if num_prey in prey_fitnesses: prey_fitnesses[num_prey] += fitness_tuple['prey']
